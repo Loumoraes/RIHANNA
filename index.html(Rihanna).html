@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu artista favorito</title>
+    <style>
+        img {
+            width: 40%;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, nav, main, section, footer {
+            padding: 20px;
+            background-color: #dc90ff;
+            margin-bottom: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+        }
+        nav ul li a:hover {
+            color: #522f50;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Rihanna</h1>
+        <nav>
+            <ul>
+                <li><a href="#Loja">Loja</a></li>
+                <li><a href="#biografia">Biografia</a></li>
+                <li><a href="#Discografia">Discografia</a></li>
+                <li><a href="#Galeria">Galeria</a></li>
+                <li><a href="#Contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="Loja">
+        <h2>Fenty Beauty</h2>
+        
+        <p>Rihanna foi inspirada a criar a Fenty Beauty & Fenty Skin depois de anos de experimentação com o que há de melhor em beleza e ainda percebendo uma lacuna na indústria de produtos que funcionavam em todos os tipos de pele e tons. <a href="https://fentybeauty.com/">Acesse aqui</a>.
+    </section>
+
+        <section id="biografia">
+            <h2>Biografia</h2>
+            <p>Rihanna é uma cantora, produtora musical, atriz, dançarina e designer de moda, nascida em Barbados, que obteve grande sucesso nas paradas musicais norte-americanas e inglesas com canções como “Umbrella”, “SOS”, “Disturbia”, “Don’t Stop the Music” e “Shut Up And Drive”.
+
+                <p>Rihanna nasceu em Barbados, uma ilha do Caribe, na América Central, no dia 20 de fevereiro de 1988. Com 09 anos começou a cantar entre amigos e familiares. Foi aluna da Charles F. Broome Memorial School, em seguida ingressou na escola Combermere. Em 2003 formou um trio musical com duas colegas de classe. Em 2004, ganhou um concurso de Miss Combermere.</p>
+                <p> Quer saber mais? Acesse <a href="https://www.rihannanow.com/bio/">aqui</a>.</p>
+            </section>
+
+
+        <section id="discografia">
+            <h2>Discografia</h2>
+            <p> A discografia de Rihanna inclui oito álbuns de estúdio, dois de remisturas e três compilações. Ela já vendeu mais de 100 milhões de álbuns equivalentes e mais de 65 bilhões de streams globais.</p> 
+                <p>Rihanna também é conhecida por quebrar recordes, tendo colocado catorze das suas músicas no topo da Hot 100. Ela assinou contrato com a Def Jam Recordings em 2005 e desde então lançou vários álbuns com influências de dancehall, reggae, R&B e pop.</p>
+            <p>Alguns álbuns:</p>
+            <ul>
+                <li>Music of the Sun (2005)</li>
+                <li>A Girl like Me (2006)</li>
+                <li>Good Girl Gone Bad (2007)</li>
+                <li>Rated R (2009)</li>
+                <li>Loud (2010)</li>
+                <li>Talk That Talk (2011)</li>
+                <li>Unapologetic (2012)</li>
+                <li>Anti (2016)</li>
+                <p>Confira outros álbuns: Clique <a href="https://www.last.fm/pt/music/Rihanna/+albums">aqui</a>.</p>
+            </ul>
+        </section>
+
+        <section id="galeria">
+            <h2>Galeria</h2>
+            <div> <p>Confira a <a href="https://rihanna-gallery.com/">Galeria oficial Rihanna</a>.</p>
+                <img src="rihanna.jpeg" />
+                <img src="rihanna 3.jpg" /></div>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <p> contato@rihanna.com.br</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Rihanna. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+    
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
